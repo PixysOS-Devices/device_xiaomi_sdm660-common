@@ -191,9 +191,6 @@ TARGET_PER_MGR_ENABLED := true
 # Compile libhwui in performance mode
 HWUI_COMPILE_FOR_PERF := true
 
-# Power
-TARGET_USES_INTERACTION_BOOST := true
-
 # Properties
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 
