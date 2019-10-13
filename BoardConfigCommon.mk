@@ -188,6 +188,9 @@ TARGET_COPY_OUT_VENDOR := vendor
 # Peripheral manager
 TARGET_PER_MGR_ENABLED := true
 
+# Compile libhwui in performance mode
+HWUI_COMPILE_FOR_PERF := true
+
 # Power
 TARGET_USES_INTERACTION_BOOST := true
 
