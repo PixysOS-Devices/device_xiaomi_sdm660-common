@@ -172,6 +172,9 @@ BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 # Recovery
 BOARD_HAS_LARGE_FILESYSTEM := true
 
+# Soong
+QCOM_SOONG_NAMESPACE := hardware/qcom-caf/sdm660
+
 # SELinux
 SELINUX_IGNORE_NEVERALLOWS := true
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
